@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+.exterNalClass_txt{
+    padding: 10px 15px;
+    border: 1px solid tan;
+    margin: 15px 20px;
+}
+.exterNalClass{
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-style: italic;
+    color: brown;
+    text-transform: capitalize;
+}
+
+.exterNalClass_para_text{
+    padding: 40px 20px 0px 25px ;
+    text-align: justify;
+    font-size: 30px;
+    font-weight: 700;
+    background-image: url('https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    color: black;
+
+}
+.img_div{
+    text-align: center;
+}
+.img_div img{
+    width: 250px;
+    height: 210px;
+    opacity: 0.8;
+}
+.img_div  img:hover{
+    opacity: 1;
+}
