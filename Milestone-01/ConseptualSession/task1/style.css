@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.812), rgba(0,0,0,0.669)), url("/Milestone-01/images/pexels-ella-olsson-572949-1640772.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    color: #ffffffce;
+    text-align: center;
+    width: 70%;
+}
+.content  h2{
+    font-size: 54px;
+    color: #db714e;
+    text-transform: uppercase;
+}
+.content  p{
+    font-size: 23px;
+    margin: 15px 0;
+}
+.content button{
+    background-color: #04aa6d;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    padding: 15px 32px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 25px;
+}
+.content button:hover{
+    background-color: #068858;
+    transition:0.5s ease-in ;
+}
