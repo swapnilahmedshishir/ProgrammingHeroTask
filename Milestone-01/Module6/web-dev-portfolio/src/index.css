@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
+
 :root {
   --dark1: #181818;
   --dark2: #474747;
@@ -15,6 +16,7 @@
   --dark6: #e8e8e8;
   --dark7: #f3f3f3;
   --btnColor: #fd6e0a;
+  
 }
 
 /* univarsal or common style  */
