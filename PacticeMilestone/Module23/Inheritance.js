@@ -1,6 +1,6 @@
 class Parent{
     constructor(){
-        this.fatherName = "Abul Sarder"
+        this.fatherName = "Sarder"
     }
 }
 
@@ -15,7 +15,7 @@ this.fatherName;
     }
 }
 
-const babay = new Child('swapnil')
+const babay = new Child('Swapnil')
 const babay2 = new Child('Ritu Borana')
 
 console.log(babay.getFatherAndChildName());
