@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>peddyWebsite</title>
+    <!-- dasi ui and tailwinds css link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.12/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awsome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- google link font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css style link  -->
+    <style>
+      .lato-thin {
+        font-family: "Lato", sans-serif;
+        font-style: normal;
+      }
+      .catagory_btn {
+        box-sizing: border-box;
+        border: 1px solid rgba(14, 122, 129, 0.15);
+        border-radius: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 23px;
+        padding: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      .active {
+        box-sizing: border-box;
+        border: 1.5px solid rgb(14, 122, 129);
+        border-radius: 120px;
+        background: rgba(14, 122, 129, 0.1);
+      }
+
+      .catagory_Name {
+        color: rgb(19, 19, 19);
+        font-family: "Lato", sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+      .card_items {
+        box-sizing: border-box;
+        border: 1px solid rgba(19, 19, 19, 0.1);
+        border-radius: 12px;
+        padding: 10px;
+        min-height: 100px;
+      }
+      .card_btn {
+        box-sizing: border-box;
+        border: 1px solid rgba(14, 122, 129, 0.15);
+        border-radius: 8px;
+        padding: 8px 13px;
+      }
+      .card_btn span {
+        color: rgb(14, 122, 129);
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+      }
+      .card_btn:hover {
+        background: rgba(14, 122, 129, 0.1);
+      }
+      #mainSection {
+        scroll-behavior: smooth;
+      }
+      .erro_card {
+        border-radius: 24px;
+        background: rgba(19, 19, 19, 0.03);
+        padding: 100px 0px;
+      }
+      @media (max-width: 768px) {
+      }
+    </style>
+  </head>
+  <body class="lato-thin">
+    <!-- navbar -->
+    <section class="navbar bg-base-100 md:px-52 my-3 md:mb-10">
+      <!-- mobile device  -->
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+          >
+            <li><a>Home</a></li>
+            <li><a>Shope</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+        <a class="btn btn-ghost text-xl ml-7 md:ml-0"
+          ><img src="./images/Frame 6.png" alt=""
+        /></a>
+      </div>
+      <!-- large device -->
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a>Home</a></li>
+          <li><a>Shope</a></li>
+          <li><a>Contact</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end pr-4 md:pr-0">
+        <a><i class="fa-solid fa-user-tie"></i></a>
+      </div>
+    </section>
+    <!-- hero part  -->
+    <section class="hero min-h-full">
+      <div class="hero-content text-center">
+        <div class="mx-auto md:max-w-[48rem]">
+          <p class="mb-6">Bringing Families Together ❤️‍🔥</p>
+          <h1 class="text-5xl md:text-7xl font-bold">
+            Your Path to Adoption Starts Here
+          </h1>
+          <p class="py-6 md:px-20">
+            Begin your adoption journey with expert guidance and support. We
+            help you navigate the process, ensuring a smooth and fulfilling
+            experience. From understanding legal requirements to finding the
+            right match, we’re here to make your adoption dreams come true.
+          </p>
+          <a href="#mainSection">
+            <button
+              class="btn bg-[rgb(14,122,129)] text-white hover:bg-slate-500"
+            >
+              View More
+            </button>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- pet image  -->
+    <section class="hero min-h-full py-12">
+      <div class="hero-content text-center">
+        <div class="max-w-[40rem]">
+          <img src="./images/pet.webp" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Adopt Your Best Friend  -->
+    <section class="hero min-h-full">
+      <div class="hero-content text-center">
+        <div class="max-w-[38rem]">
+          <h1 class="text-5xl font-bold">Adopt Your Best Friend</h1>
+          <p class="py-6">
+            Bring unconditional love into your life by adopting your best friend
+            today. Whether it's a dog, cat, or another loving pet, adoption
+            offers a lifelong bond and companionship. Find your perfect match
+            and give a pet a forever home.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- all pet catgory icon  -->
+    <section class="min-h-full py-[32px] px-3 md:px-52">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6" id="catagory_btn">
+        <!-- all catagoy items here -->
+      </div>
+    </section>
+    <!-- Best Deal For you -->
+    <section class="min-h-full py-[32px] px-3 md:px-52" id="mainSection">
+      <div class="flex justify-between">
+        <p class="text-2xl font-black">Best Deal For you</p>
+        <button
+          id="sortByPriceBtn"
+          class="btn bg-[rgb(14,122,129)] text-white hover:bg-slate-500"
+        >
+          Sort by Price
+        </button>
+      </div>
+    </section>
+    <!-- all pet items   -->
+    <section class="min-h-full py-[32px] px-3 md:px-52">
+      <div class="grid grid-cols-3 md:grid-cols-4 gap-6">
+        <!-- spinner  -->
+        <div id="loadingSpinner" class="spinner text-center col-span-3 hidden">
+          <span class="loading loading-bars loading-lg"></span>
+        </div>
+        <!-- all catagoy items here  -->
+        <div
+          class="col-span-3 grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-0"
+          id="show_data_card"
+        ></div>
+        <div class="col-span-3 md:col-span-1">
+          <h2 class="card-title mb-3 md:hidden">Love Pets</h2>
+          <div
+            class="card card_items shadow-xl grid grid-cols-2 gap-5"
+            id="loveByImageShow"
+          >
+            <!-- love image data -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- modal dailog box  box  -->
+    <dialog
+      id="dynamicDataShowModal"
+      class="modal modal-bottom sm:modal-middle"
+    >
+      <!-- modal data  -->
+    </dialog>
+    <!-- modal count down box  -->
+    <dialog id="count_down_modal" class="modal modal-bottom sm:modal-middle">
+      <!-- modal data  -->
+      <div class="modal-box">
+        <img
+          src="./images/support.png"
+          alt=""
+          class="w-[77px] mx-auto rounded-md"
+        />
+        <div class="text-center py-5">
+          <h2 class="text-5xl font-extrabold">Congrates</h2>
+          <p class="py-2 text-lg font-bold">
+            Adoption process is start for you pet
+          </p>
+        </div>
+        <div>
+          <h2
+            class="text-5xl text-center font-extrabold mb-6"
+            id="counterNumber"
+          ></h2>
+        </div>
+
+        <div>
+          <form method="dialog">
+            <button class="btn w-full card_btn"><span>Cancel</span></button>
+          </form>
+        </div>
+      </div>
+    </dialog>
+    <!-- footer -->
+    <footer class="footer bg-black py-10 px-3 md:px-52">
+      <nav>
+        <div class="footer-title flex gap-3">
+          <img src="./images/logo.webp" alt="pet foot fint image" />
+          <span class="text-[rgb(255,255,255)] text-[32px] font-black"
+            >Peddy</span
+          >
+        </div>
+        <a class="link link-hover text-gray-300"
+          >Location: Narinda , Wari , Dhaka-1203</a
+        >
+        <a class="link link-hover text-gray-300">Phone: +31 85 964 47 25</a>
+        <a class="link link-hover text-gray-300">Email: info@peddy.com</a>
+        <a class="link link-hover text-gray-300"
+          >Openings hours: 9.00 AM - 5.00 PM</a
+        >
+        <div class="grid grid-flow-col gap-4">
+          <a>
+            <img src="images/facebook.png" alt="" class="w-10" />
+          </a>
+          <a>
+            <img src="images/linkedin-icon 1.png" alt="" class="w-10" />
+          </a>
+          <a>
+            <img src="images/image.png" alt="" class="w-10" />
+          </a>
+        </div>
+      </nav>
+      <nav>
+        <h6 class="footer-title text-white">Useful Links</h6>
+        <a class="link link-hover text-gray-300">About us</a>
+        <a class="link link-hover text-gray-300">Contact</a>
+        <a class="link link-hover text-gray-300">Animals</a>
+        <a class="link link-hover text-gray-300">Foundation</a>
+      </nav>
+
+      <form>
+        <h6 class="footer-title text-white">Drop a Message</h6>
+        <fieldset class="form-control w-80">
+          <label class="label">
+            <span class="label-text text-gray-300"
+              >Enter your email address</span
+            >
+          </label>
+          <div class="join">
+            <input
+              type="text"
+              placeholder="username@site.com"
+              class="input input-bordered join-item"
+            />
+            <button
+              class="btn bg-[rgb(14,122,129)] text-white hover:bg-slate-500 join-item"
+            >
+              Subscribe
+            </button>
+          </div>
+        </fieldset>
+      </form>
+    </footer>
+    <!-- all javaScript file -->
+    <script src="./js/fetchCatagory.js"></script>
+    <script src="./js/fetchAllData.js"></script>
+    <script src="./js/FetchByCatagory.js"></script>
+    <script src="./js/LoveByPate.js"></script>
+    <script src="./js/FetchDetailsDynamic.js"></script>
+    <script src="./js/CounterNumber.js"></script>
+  </body>
+</html>
