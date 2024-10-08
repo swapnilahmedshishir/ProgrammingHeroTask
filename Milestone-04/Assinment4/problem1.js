@@ -13,3 +13,6 @@ function calculateTax(income, expenses) {
     return tax;
   }
 }
+
+
+console.log(calculateTax(10000, 3000));

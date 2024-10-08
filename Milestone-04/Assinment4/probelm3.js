@@ -1,7 +1,8 @@
 function checkDigitsInName(name) {
-  if (typeof name !== "String") {
+  if (typeof name !== 'string') {
     return "Invalid Input";
   }
+
   let checkValidatin = /\d/.test(name);
   if (checkValidatin) {
     return true;
@@ -9,3 +10,5 @@ function checkDigitsInName(name) {
     return false;
   }
 }
+
+console.log(checkDigitsInName('Suman'));
