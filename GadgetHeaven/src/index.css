@@ -1,0 +1,229 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+.active {
+  color: blueviolet;
+}
+
+.Cutting_Edge_text {
+  color: rgb(11, 11, 11);
+  font-family: Sora;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+/* gadget_poduct_main_div */
+.gadget_poduct_main_div {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 2rem;
+}
+
+/* product_catagory_main_div */
+.product_catagory_main_div {
+  box-sizing: border-box;
+  border: 1px solid rgba(9, 8, 15, 0.1);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  row-gap: 1rem;
+  flex-grow: 1;
+  padding: 1rem 2rem;
+}
+
+.product_catagory_main_div button {
+  width: 100%;
+}
+
+/* products_main_div */
+
+.products_main_div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+/* product_card_main_div */
+.product_card_main_div {
+  border-radius: 16px;
+  background: rgba(236, 234, 234, 0.854);
+  padding: 20px;
+}
+
+.product_card_image_div {
+  width: 100%;
+}
+
+/* product_card_details_div */
+.product_card_details_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-left: 1rem;
+}
+
+/* product_card_details_div h3 */
+
+.product_card_details_div h3 {
+  color: rgb(9, 8, 15);
+  font-family: Sora;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.product_card_details_div p {
+  color: rgba(9, 8, 15, 0.6);
+  font-family: Sora;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+
+/* productsDatilas page */
+.productsDatilas_productName {
+  color: rgb(9, 8, 15);
+  font-family: Sora;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.productsDatilas_productprice {
+  color: rgba(9, 8, 15, 0.8);
+  font-family: Sora;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.productsDatilas_productDes {
+  color: rgba(9, 8, 15, 0.6);
+  font-family: Sora;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.productsDatilas_productSpecification {
+  color: rgb(9, 8, 15);
+  font-family: Sora;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.productsDatilas_productSpecification_item {
+  color: rgba(9, 8, 15, 0.6);
+  font-family: Sora;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.productsDatilas_productStock {
+  color: rgb(48, 156, 8);
+  font-family: Sora;
+  font-size: 14px;
+  width: 100px;
+  padding: 0.5rem;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid rgb(48, 156, 8);
+  border-radius: 32px;
+  background: rgba(48, 156, 8, 0.1);
+}
+
+.productsDatilas_productStockOut {
+  color: rgb(156, 8, 8);
+  font-family: Sora;
+  font-size: 14px;
+  width: 100px;
+  padding: 0.5rem;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(156, 25, 8, 0.849);
+  border-radius: 32px;
+  background: rgba(156, 38, 8, 0.1);
+
+}
+
+.productsDatilas_productSpecification .ratingNumber {
+  border-radius: 25px;
+  background: rgba(9, 8, 15, 0.05);
+  color: rgba(9, 8, 15, 0.8);
+  font-family: Sora;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 0.3rem 1.2rem;
+
+}
+
+.mainHedding_text {
+  color: rgb(11, 11, 11);
+  font-family: Sora;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+@media (max-width: 1008px) {
+  /* products_main_div */
+
+  .products_main_div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  /* products_main_div */
+
+  .products_main_div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+}

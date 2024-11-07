@@ -1,0 +1,429 @@
+[
+    {
+      "product_id": "P001",
+      "product_title": "Apple iPhone 15 Pro Max",
+      "product_image": "https://images.pexels.com/photos/4071887/pexels-photo-4071887.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "Phones",
+      "price": 1299,
+      "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
+      "specification": [
+        "6.7-inch Super Retina XDR display",
+        "A17 Bionic chip",
+        "Triple-camera system (48MP Main, 12MP Telephoto, 12MP Ultrawide)",
+        "LiDAR Scanner",
+        "Up to 2TB storage"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "P002",
+      "product_title": "Samsung Galaxy S23 Ultra",
+      "product_image": "https://images.pexels.com/photos/47261/pexels-photo-47261.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "Phones",
+      "price": 1199,
+      "description": "Redefining smartphone performance with the Galaxy S23 Ultra.",
+      "specification": [
+        "6.8-inch Dynamic AMOLED 2X",
+        "Snapdragon 8 Gen 2",
+        "Quad-camera setup (200MP Main)",
+        "5G Connectivity",
+        "1TB storage option"
+      ],
+      "availability": false,
+      "rating": 4.7
+    },
+    {
+      "product_id": "P003",
+      "product_title": "Google Pixel 7 Pro",
+      "product_image": "https://cdn.pixabay.com/photo/2022/10/14/09/58/google-pixel-7520958_1280.jpg",
+      "category": "Phones",
+      "price": 899,
+      "description": "Experience the power of Google’s latest AI with Pixel 7 Pro.",
+      "specification": [
+        "6.7-inch OLED display",
+        "Google Tensor G2 chip",
+        "Triple-camera system",
+        "Magic Eraser",
+        "Up to 512GB storage"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "P004",
+      "product_title": "OnePlus 11",
+      "product_image": "https://cdn.pixabay.com/photo/2017/08/02/11/38/smartphone-2571128_640.jpg",
+      "category": "Phones",
+      "price": 799,
+      "description": "Fast and smooth with the OnePlus 11.",
+      "specification": [
+        "6.55-inch Fluid AMOLED display",
+        "Snapdragon 8 Gen 1",
+        "Triple-camera setup",
+        "Warp Charge 65",
+        "Up to 256GB storage"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "P005",
+      "product_title": "Sony Xperia 5 IV",
+      "product_image": "https://images.pexels.com/photos/2591485/pexels-photo-2591485.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "Phones",
+      "price": 999,
+      "description": "Sony Xperia 5 IV offers superior imaging and gaming performance.",
+      "specification": [
+        "6.1-inch OLED display",
+        "Snapdragon 8 Gen 1",
+        "Triple-camera setup",
+        "4K HDR video",
+        "Up to 512GB storage"
+      ],
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": "L001",
+      "product_title": "Dell XPS 13",
+      "product_image": "https://images.pexels.com/photos/1092652/pexels-photo-1092652.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "Laptops",
+      "price": 939,
+      "description": "The ultra-slim, high-performance Dell XPS 13 laptop.",
+      "specification": [
+        "13.3-inch InfinityEdge Display",
+        "Intel Core i7 Processor",
+        "16GB RAM, 512GB SSD",
+        "Intel Iris Xe Graphics",
+        "Long battery life"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "L002",
+      "product_title": "Apple MacBook Pro 14",
+      "product_image": "https://images.pexels.com/photos/205421/pexels-photo-205421.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "Laptops",
+      "price": 1999,
+      "description": "Unmatched performance with the new MacBook Pro 14.",
+      "specification": [
+        "14-inch Liquid Retina XDR Display",
+        "M2 Pro chip",
+        "16GB RAM, 1TB SSD",
+        "Up to 20 hours battery life",
+        "Six-speaker sound system"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "L003",
+      "product_title": "HP Spectre x360",
+      "product_image": "https://images.pexels.com/photos/17706646/pexels-photo-17706646/free-photo-of-news-on-laptop-screen.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "category": "Laptops",
+      "price": 1399,
+      "description": "Versatile 2-in-1 with a stunning display and long battery life.",
+      "specification": [
+        "13.5-inch OLED display",
+        "Intel Core i7 Processor",
+        "16GB RAM, 512GB SSD",
+        "360-degree hinge",
+        "Integrated HP Sure View privacy screen"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "L004",
+      "product_title": "ASUS ROG Zephyrus G14",
+      "product_image": "https://m.media-amazon.com/images/I/81GrCeuCzxL._AC_UY218_.jpg",
+      "category": "Laptops",
+      "price": 1499,
+      "description": "Gaming powerhouse with AMD Ryzen 9 and high refresh rate.",
+      "specification": [
+        "14-inch QHD display, 120Hz",
+        "AMD Ryzen 9 Processor",
+        "16GB RAM, 1TB SSD",
+        "NVIDIA GeForce RTX 3060",
+        "RGB keyboard"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "L005",
+      "product_title": "Lenovo ThinkPad X1 Carbon",
+      "product_image": "https://m.media-amazon.com/images/I/61XXyxsfdRL._AC_UY218_.jpg",
+      "category": "Laptops",
+      "price": 1799,
+      "description": "High-end business laptop with unmatched durability.",
+      "specification": [
+        "14-inch FHD+ display",
+        "Intel Core i7 Processor",
+        "16GB RAM, 1TB SSD",
+        "Carbon-fiber reinforced body",
+        "Up to 19.5 hours battery life"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "PB001",
+      "product_title": "Anker PowerCore 20000",
+      "product_image": "https://m.media-amazon.com/images/I/61dsRIdhEiL._AC_UY218_.jpg",
+      "category": "Power-Banks",
+      "price": 559,
+      "description": "Ultra-high capacity power bank with fast charging.",
+      "specification": [
+        "20000mAh capacity",
+        "USB-C and USB-A ports",
+        "PowerIQ technology",
+        "Portable and compact design"
+      ],
+      "availability": false,
+      "rating": 4.5
+    },
+    {
+      "product_id": "PB002",
+      "product_title": "RAVPower 20000mAh Portable Charger",
+      "product_image": "https://m.media-amazon.com/images/I/516tnauVb+L._AC_UY218_.jpg",
+      "category": "Power-Banks",
+      "price": 739,
+      "description": "Portable 20000mAh charger with quick charge technology.",
+      "specification": [
+        "20000mAh capacity",
+        "Quick Charge 3.0",
+        "Dual USB-A output",
+        "LED battery indicator"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "PB003",
+      "product_title": "Xiaomi Mi Power Bank 3",
+      "product_image": "https://m.media-amazon.com/images/I/61b6ZG4lLdL._AC_UY218_.jpg",
+      "category": "Power-Banks",
+      "price": 425,
+      "description": "Compact and lightweight 10000mAh power bank.",
+      "specification": [
+        "10000mAh capacity",
+        "Dual USB-A output",
+        "Fast charging support",
+        "Lightweight and portable"
+      ],
+      "availability": false,
+      "rating": 4.3
+    },
+    {
+      "product_id": "PB004",
+      "product_title": "Mophie PowerStation XL",
+      "product_image": "https://m.media-amazon.com/images/I/41u4o5TL09L._AC_UY218_.jpg",
+      "category": "Power-Banks",
+      "price": 888,
+      "description": "High-capacity power bank with versatile charging options.",
+      "specification": [
+        "15000mAh capacity",
+        "USB-C and USB-A ports",
+        "LED power indicator",
+        "Soft-touch finish"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "PB005",
+      "product_title": "Goal Zero Sherpa 100PD",
+      "product_image": "https://m.media-amazon.com/images/I/71o6MKvS+cL._AC_UY218_.jpg",
+      "category": "Power-Banks",
+      "price": 149,
+      "description": "Rugged power bank with USB-C PD for fast charging.",
+      "specification": [
+        "10000mAh capacity",
+        "USB-C PD, USB-A ports",
+        "Fast charging support",
+        "Designed for outdoor use"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "PB006",
+      "product_title": "Zendure SuperTank Pro",
+      "product_image": "https://m.media-amazon.com/images/I/61e9M4D+RQL._AC_UY218_.jpg",
+      "category": "Power-Banks",
+      "price": 199,
+      "description": "Powerful power bank with 100W output and 26800mAh capacity.",
+      "specification": [
+        "26800mAh capacity",
+        "USB-C PD 100W output",
+        "OLED display",
+        "Durable design"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "C001",
+      "product_title": "Anker Nano II 65W",
+      "product_image": "https://m.media-amazon.com/images/I/51f6vgHsJ5L._AC_UY218_.jpg",
+      "category": "Chargers",
+      "price": 354,
+      "description": "Compact 65W charger for fast charging multiple devices.",
+      "specification": [
+        "65W output",
+        "USB-C port",
+        "GaN technology",
+        "Foldable plug"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "C002",
+      "product_title": "Samsung 45W Super Fast Charger",
+      "product_image": "https://m.media-amazon.com/images/I/51iH8MHrCkL._AC_UY218_.jpg",
+      "category": "Chargers",
+      "price": 289,
+      "description": "Fast charging for Samsung Galaxy devices.",
+      "specification": [
+        "45W output",
+        "USB-C port",
+        "Compatible with Galaxy S series",
+        "Compact design"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "C003",
+      "product_title": "Apple 20W USB-C Power Adapter",
+      "product_image": "https://m.media-amazon.com/images/I/61zO+pIX+gL._AC_UY218_.jpg",
+      "category": "Chargers",
+      "price": 159,
+      "description": "Quick charge your Apple devices with this 20W adapter.",
+      "specification": [
+        "20W output",
+        "USB-C port",
+        "Optimized for iPhones",
+        "Lightweight design"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "C004",
+      "product_title": "Belkin BoostCharge Pro",
+      "product_image": "https://m.media-amazon.com/images/I/61C6vLZVRcL._AC_UY218_.jpg",
+      "category": "Chargers",
+      "price": 369,
+      "description": "Advanced multi-port fast charger with GaN technology.",
+      "specification": [
+        "60W output",
+        "Dual USB-C ports",
+        "GaN technology",
+        "Foldable design"
+      ],
+      "availability": false,
+      "rating": 4.6
+    },
+    {
+      "product_id": "SW001",
+      "product_title": "Apple Watch Series 8",
+      "product_image": "https://m.media-amazon.com/images/I/71ulah9iIwL._AC_UY218_.jpg",
+      "category": "Smart-Watches",
+      "price": 3990,
+      "description": "Stay connected, healthy, and safe with Apple Watch Series 8.",
+      "specification": [
+        "1.78-inch Retina display",
+        "ECG and blood oxygen monitoring",
+        "GPS",
+        "Water-resistant"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "SW002",
+      "product_title": "Samsung Galaxy Watch 5",
+      "product_image": "https://m.media-amazon.com/images/I/51A7paD2S3L._AC_UY218_.jpg",
+      "category": "Smart-Watches",
+      "price": 329,
+      "description": "Advanced health tracking with Galaxy Watch 5.",
+      "specification": [
+        "1.4-inch AMOLED display",
+        "Health and fitness tracking",
+        "Waterproof",
+        "Up to 3 days battery life"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "SW003",
+      "product_title": "Garmin Fenix 7",
+      "product_image": "https://m.media-amazon.com/images/I/711rEu2qZrL._AC_UY218_.jpg",
+      "category": "Smart-Watches",
+      "price": 699,
+      "description": "High-performance GPS watch built for adventure.",
+      "specification": [
+        "1.3-inch display",
+        "Multi-GNSS tracking",
+        "Health metrics monitoring",
+        "Solar charging option"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "SW004",
+      "product_title": "Fitbit Versa 4",
+      "product_image": "https://m.media-amazon.com/images/I/61CZSoSnVPL._AC_UY218_.jpg",
+      "category": "Smart-Watches",
+      "price": 197,
+      "description": "A versatile smartwatch with comprehensive fitness features.",
+      "specification": [
+        "1.58-inch AMOLED display",
+        "Heart rate monitor",
+        "Sleep tracking",
+        "6+ days battery life"
+      ],
+      "availability": false,
+      "rating": 4.6
+    },
+    {
+      "product_id": "SW005",
+      "product_title": "Huawei Watch GT 3",
+      "product_image": "https://m.media-amazon.com/images/I/612qdiAoxhL._AC_UY218_.jpg",
+      "category": "Smart-Watches",
+      "price": 229,
+      "description": "Elegant smartwatch with comprehensive health tracking.",
+      "specification": [
+        "1.43-inch AMOLED display",
+        "SpO2 monitoring",
+        "Dual-chipset architecture",
+        "14-day battery life"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "SW006",
+      "product_title": "Amazfit GTR 3 Pro",
+      "product_image": "https://m.media-amazon.com/images/I/615Md3ehEhL._AC_UY218_.jpg",
+      "category": "Smart-Watches",
+      "price": 189,
+      "description": "Stylish and powerful smartwatch with advanced health features.",
+      "specification": [
+        "1.45-inch AMOLED display",
+        "24-hour heart rate monitoring",
+        "5 ATM water resistance",
+        "Bluetooth calls"
+      ],
+      "availability": true,
+      "rating": 4.5
+    }
+  ]
+  
