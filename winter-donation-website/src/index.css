@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  margin-bottom: 0px;
+}
+/* .bg_hero {
+  background: linear-gradient(
+    100deg,
+    rgb(1, 28, 82) -19.5%,
+    rgba(0, 206, 233, 0.295) 100%
+  );
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+} */
+a .active {
+  color: #00527f;
+}
+
+/* =====================================================================
+                  Erro Page start
+ ====================================================================*/
+.erro_page_div {
+  min-height: 90vh;
+  padding: 3rem 0rem;
+  background: linear-gradient(#011c52, #00527f);
+}
+
+.erro_text_div h5 {
+  font-size: 1.5rem;
+  margin-top: -4rem;
+  padding-bottom: 2rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+}
+.custombtn {
+  background: linear-gradient(
+    100deg,
+    rgb(1, 28, 82) -19.5%,
+    rgba(0, 206, 233, 0.295) 100%
+  );
+  padding: 0.5rem 1.4rem;
+  border-radius: 0.4rem;
+  color: var(--text-color);
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.custombtn:hover {
+  background: linear-gradient(
+    100deg,
+    rgba(1, 28, 82, 0.849) -19.5%,
+    rgba(0, 206, 233, 0.678) 100%
+  );
+  color: var(--bg-color);
+  transition: background 0.4s ease, color 0.4s ease;
+}
+/* =====================================================================
+                  project section start
+ ====================================================================*/
+.project {
+  border-radius: 0px 0px 70px 70px;
+  box-shadow: 0px 10px 15.9px -1px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(
+    180deg,
+    rgba(1, 28, 82, 0.1) 1.308%,
+    rgb(0, 205, 233) 109.199%
+  );
+}
+/* =====================================================================
+                  ourStories section start
+ ====================================================================*/
+.ourStories {
+  border-radius: 70px 70px 0px 0px;
+  box-shadow: 0px 10px 15.9px -1px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(
+    0deg,
+    rgba(1, 28, 82, 0.1) 1.308%,
+    rgb(0, 205, 233) 109.199%
+  );
+}
+/* =====================================================================
+                  HelpHand section start
+ ====================================================================*/
+
+.HelpHand {
+  box-shadow: 0px 10px 15.9px -1px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(
+    180deg,
+    rgba(1, 17, 48, 0.055) 1.308%,
+    rgba(0, 206, 233, 0.247) 109.199%
+  );
+  z-index: -10;
+}
+
+/* =====================================================================
+                   PARTNERS section start
+ ====================================================================*/
+
+.PARTNERS {
+  margin-top: -3rem;
+  z-index: 10;
+  border-radius: 75px 75px 0px 0px;
+  box-shadow: 0px 10px 15.9px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* animation patner image styl */
+.home_patner_img_animation {
+  width: 93%;
+  max-width: 1450px;
+  margin-inline: auto;
+  position: relative;
+  height: 129px;
+  margin-top: 5rem;
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+  );
+}
+
+@keyframes scrollLeft {
+  to {
+    left: -100px;
+  }
+}
+
+.patner_img_item {
+  width: 200px;
+  height: 100px;
+  border-radius: 6px;
+  position: absolute;
+  left: max(calc(100px * 4), 100%);
+  animation-name: scrollLeft;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.item1 {
+  animation-delay: calc(30s / 4 * (4 - 1) * -1);
+}
+
+.item2 {
+  animation-delay: calc(30s / 4 * (4 - 2) * -1);
+}
+
+.item3 {
+  animation-delay: calc(30s / 4 * (4 - 3) * -1);
+}
+
+.item4 {
+  animation-delay: calc(30s / 4 * (4 - 4) * -1);
+}
+
+/* =====================================================================
+                   footer part star
+ ====================================================================*/
+.FooterSection {
+  margin-top: -3rem;
+  z-index: 10;
+  border-radius: 4.6875rem 4.6875rem 0rem 0rem;
+
+  box-shadow: 0px 10px 15.9px -1px rgba(0, 0, 0, 0.1);
+}
+.footer-border-radius {
+  border-radius: 4.6875rem 4.6875rem 0.625rem 0.625rem;
+}
+.footer-divider {
+  background-color: #fff;
+  width: 80%;
+  height: 1px;
+  margin: 0 auto;
+}

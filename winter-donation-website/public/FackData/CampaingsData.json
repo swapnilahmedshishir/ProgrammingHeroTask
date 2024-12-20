@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Winter Clothing Drive - Dhaka",
+    "image": "https://i.postimg.cc/sfpMMtL3/camp01.png",
+    "description": "Donate winter clothes to help the underprivileged in Dhaka stay warm this winter.",
+    "status": "Ongoing",
+    "contactInfo": "+88 01717-111111",
+    "division": "Dhaka"
+  },
+  {
+    "id": 2,
+    "title": "Warm Clothes for All - Dhaka",
+    "image": "https://i.postimg.cc/Kvf4NtFV/camp02.png",
+    "description": "Providing warm clothing to street dwellers in Dhaka city.",
+    "status": "Upcoming",
+    "contactInfo": "+88 01717-222222",
+    "division": "Dhaka"
+  },
+  {
+    "id": 3,
+    "title": "Chittagong Winter Relief",
+    "image": "https://i.postimg.cc/4xFyCZYQ/camp03.png",
+    "description": "Distributing winter blankets and clothes in remote areas of Chittagong.",
+    "status": "Ongoing",
+    "contactInfo": "+88 01717-333333",
+    "division": "Chittagong"
+  },
+  {
+    "id": 4,
+    "title": "Stay Warm Campaign - Chittagong",
+    "image": "https://i.postimg.cc/wxm7HDM1/camp04.png",
+    "description": "Helping families in need with winter clothing in Chittagong.",
+    "status": "Completed",
+    "contactInfo": "+88 01717-444444",
+    "division": "Chittagong"
+  },
+  {
+    "id": 5,
+    "title": "Sylhet Winter Clothing Appeal",
+    "image": "https://i.postimg.cc/VL9v01j1/camp05.png",
+    "description": "Collecting warm clothes for children and elderly in Sylhet.",
+    "status": "Ongoing",
+    "contactInfo": "+88 01717-555555",
+    "division": "Sylhet"
+  },
+  {
+    "id": 6,
+    "title": "Warm Hands, Warm Hearts - Sylhet",
+    "image": "https://i.postimg.cc/VkDN4RGV/camp06.png",
+    "description": "Providing gloves, scarves, and jackets to those in need in Sylhet.",
+    "status": "Upcoming",
+    "contactInfo": "+88 01717-666666",
+    "division": "Sylhet"
+  }
+]
